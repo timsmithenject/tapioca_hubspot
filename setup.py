@@ -20,7 +20,7 @@ except (IOError, ImportError):
 
 package = 'tapioca_hubspot'
 requirements = [
-    'tapioca-wrapper<2',
+    'tapioca-wrapper>=2',
 
     'requests-oauthlib>=0.4.2',
 
